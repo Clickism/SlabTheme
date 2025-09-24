@@ -2,6 +2,7 @@
   "name": "Slab Theme",
   "dark": true,
   "author": "Clickism",
+  "editorScheme": "Slab",
   "colors": {
     "bg0": "#191D24",
     "bg1": "#20242b",
