@@ -48,7 +48,12 @@
       "underlineColor": "pr0",
       "underlineHeight": 2
     },
-    "FileColor.Blue": "pr0",
-    "FileColor.Yellow": "#1d222a"
+    "FileColor.Blue": "#1d222a",
+    "FileColor.Violet": "#1d222a",
+    "FileColor.Yellow": "#1d222a",
+    "FileColor.Green": "#1d222a",
+    "FileColor.Gray": "#1d222a",
+    "FileColor.Orange": "#1d222a",
+    "FileColor.Rose": "#1d222a"
   }
 }
