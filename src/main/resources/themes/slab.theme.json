@@ -48,11 +48,6 @@
       "underlineHeight": 2
     },
     "FileColor.Blue": "pr0",
-    "FileColor.Gray": "mark",
-    "FileColor.Green": "mark",
-    "FileColor.Orange": "mark",
-    "FileColor.Violet": "mark",
-    "FileColor.Rose": "mark",
     "FileColor.Yellow": "#1d222a"
   }
 }
