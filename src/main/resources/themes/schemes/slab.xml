@@ -19,6 +19,11 @@
       </value>
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="BASH.EXTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="ffa85a" />
+      </value>
+    </option>
     <option name="CSS.COLON">
       <value>
         <option name="FOREGROUND" value="9a9a9a" />
@@ -407,32 +412,6 @@
         <option name="FOREGROUND" value="64dc98" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="977ab" />
-      </value>
-    </option>
-    <option name="XML_CUSTOM_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="ffa85a" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="XML_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="e7698d" />
-      </value>
-    </option>
-    <option name="XML_PROLOGUE">
-      <value>
-        <option name="FOREGROUND" value="ffa85a" />
-      </value>
-    </option>
-    <option name="XML_TAG">
-      <value>
-        <option name="FOREGROUND" value="9a9a9a" />
-      </value>
-    </option>
-    <option name="XML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="ffa85a" />
       </value>
     </option>
   </attributes>
