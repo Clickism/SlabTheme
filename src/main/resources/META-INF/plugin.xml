@@ -5,7 +5,7 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>SlabTheme</name>
+    <name>Slab Theme</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor url="https://clickism.de">Personal Website (Clickism)</vendor>
@@ -13,8 +13,8 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Enter short description for your plugin here.<br>
-        <em>most HTML tags may be used</em>
+        Slab is a modern, aesthetic and minimalistic theme for JetBrains IDEs.
+        It has vibrant pastel colors that mix perfectly together.
     ]]></description>
 
     <!-- Product and plugin compatibility requirements.
