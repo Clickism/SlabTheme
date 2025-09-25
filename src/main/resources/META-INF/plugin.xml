@@ -8,7 +8,7 @@
     <name>Slab Theme</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://clickism.de">Personal Website (Clickism)</vendor>
+    <vendor url="https://clickism.de">Clickism</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
@@ -16,7 +16,9 @@
         Slab is a modern, aesthetic and minimalistic theme for JetBrains IDEs.
         It has vibrant pastel colors that mix perfectly together.
 
-        <a href=""
+        <a href="https://github.com/Clickism/SlabTheme">
+        GitHub
+        </a>
     ]]></description>
 
     <!-- Product and plugin compatibility requirements.
