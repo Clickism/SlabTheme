@@ -1,4 +1,4 @@
-<scheme name="Slab copy" version="142" parent_scheme="Darcula">
+<scheme name="Slab" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">idea</property>
@@ -18,7 +18,7 @@
         <option name="FOREGROUND" value="73c5cb" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="CSS.COLON">
       <value>
         <option name="FOREGROUND" value="9a9a9a" />
@@ -339,6 +339,13 @@
         <option name="FOREGROUND" value="b6b6b6" />
       </value>
     </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffa85a" />
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="PROPERTIES.KEY">
       <value>
         <option name="FOREGROUND" value="ffa85a" />
@@ -400,6 +407,32 @@
         <option name="FOREGROUND" value="64dc98" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="977ab" />
+      </value>
+    </option>
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffa85a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="XML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="e7698d" />
+      </value>
+    </option>
+    <option name="XML_PROLOGUE">
+      <value>
+        <option name="FOREGROUND" value="ffa85a" />
+      </value>
+    </option>
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="9a9a9a" />
+      </value>
+    </option>
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffa85a" />
       </value>
     </option>
   </attributes>
