@@ -1,15 +1,14 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <!-- background gradient -->
         <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#FF517F"/>
-            <stop offset="100%" stop-color="#ff0855"/>
+            <stop offset="0%" stop-color="#ff99aa"/> <!-- soft light cherry -->
+            <stop offset="50%" stop-color="#ff4d6d"/> <!-- rich mid pink -->
+            <stop offset="100%" stop-color="#b8002e"/> <!-- deeper cherry red -->
         </linearGradient>
 
-        <!-- diamond gradients -->
         <linearGradient id="gradRed" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#ff9999"/>
-            <stop offset="100%" stop-color="#ef2d1d"/>
+            <stop offset="10%" stop-color="#ff8080"/>
+            <stop offset="100%" stop-color="#df2d1d"/>
         </linearGradient>
 
         <linearGradient id="gradOrange" x1="0" y1="0" x2="0" y2="1">
@@ -21,24 +20,37 @@
             <stop offset="0%" stop-color="#bf80bf"/>
             <stop offset="100%" stop-color="#7a4070"/>
         </linearGradient>
+
+        <linearGradient id="strokeRed" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ffcccc"/>
+            <stop offset="100%" stop-color="#cc0000"/>
+        </linearGradient>
+
+        <linearGradient id="strokeOrange" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ffe0b3"/>
+            <stop offset="100%" stop-color="#cc8400"/>
+        </linearGradient>
+
+        <linearGradient id="strokePurple" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#d1a6d1"/>
+            <stop offset="100%" stop-color="#5c2040"/>
+        </linearGradient>
     </defs>
 
-    <!-- background with rounded corners and gradient -->
     <rect x="2" y="2" width="36" height="36" rx="8" ry="8" fill="url(#bgGradient)"/>
 
-    <!-- diamonds, centered at (20,20), slightly less tall and overlapping -->
     <g transform="translate(20,20)">
-        <!-- bottom: light red -->
         <g transform="translate(0,7) scale(1,0.6) rotate(45)">
-            <rect x="-12" y="-12" width="24" height="24" rx="5" ry="5" fill="url(#gradRed)" opacity="0.9"/>
+            <rect x="-12" y="-12" width="24" height="24" rx="5" ry="5"
+                  fill="url(#gradRed)" stroke="url(#strokeRed)" stroke-width=".3" opacity="0.9"/>
         </g>
-        <!-- middle: orange -->
         <g transform="translate(0,0) scale(1,0.6) rotate(45)">
-            <rect x="-12" y="-12" width="24" height="24" rx="5" ry="5" fill="url(#gradOrange)" opacity="0.9"/>
+            <rect x="-12" y="-12" width="24" height="24" rx="5" ry="5"
+                  fill="url(#gradOrange)" stroke="url(#strokeOrange)" stroke-width=".3" opacity="0.9"/>
         </g>
-        <!-- top: purple -->
         <g transform="translate(0,-7) scale(1,0.6) rotate(45)">
-            <rect x="-12" y="-12" width="24" height="24" rx="5" ry="5" fill="url(#gradPurple)" opacity="0.9"/>
+            <rect x="-12" y="-12" width="24" height="24" rx="5" ry="5"
+                  fill="url(#gradPurple)" stroke="url(#strokePurple)" stroke-width=".3" opacity="0.9"/>
         </g>
     </g>
 </svg>
