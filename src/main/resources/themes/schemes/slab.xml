@@ -473,7 +473,7 @@
     </option>
     <option name="org.rust.ASSOC_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FOREGROUND" value="ffa85a" />
       </value>
     </option>
     <option name="org.rust.CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
@@ -485,7 +485,7 @@
     </option>
     <option name="org.rust.FUNCTION">
       <value>
-        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FOREGROUND" value="ffa85a" />
       </value>
     </option>
     <option name="org.rust.FUNCTION_CALL">
@@ -501,7 +501,7 @@
     </option>
     <option name="org.rust.METHOD">
       <value>
-        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FOREGROUND" value="ffa85a" />
       </value>
     </option>
     <option name="org.rust.STATIC">
