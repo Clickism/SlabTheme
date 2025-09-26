@@ -166,7 +166,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffa85a" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -189,6 +189,11 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="ffa85a" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -251,7 +256,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="DEFAULT_STATIC_METHOD">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+      </value>
+    </option>
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="73c5cb" />
